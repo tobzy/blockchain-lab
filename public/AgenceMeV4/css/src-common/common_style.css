@@ -670,3 +670,16 @@ section.reach .wrapLine span,
 	margin: 20px;
 	display:inline-block;
 }
+
+.button-apply {
+	display: block;
+	width: 130px;
+	height: 75px;
+	background: #4f87e8;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: #1C1B1B;
+	font-weight: bold;
+	margin-top: 20px;
+}
