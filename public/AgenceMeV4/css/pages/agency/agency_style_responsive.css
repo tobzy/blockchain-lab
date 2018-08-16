@@ -1,0 +1,401 @@
+@media screen and (max-width: 1000px) {
+	#container-general
+	{
+		padding-bottom: 0px;
+	}
+	#section-cover
+	{
+		padding-top: 290px;
+		padding-bottom: 100px;
+	}
+	#section-cover .container-illu .ipad {
+		width: 240px;
+		top: -125px;
+		right: -60px;
+	}
+	#section-cover .container-illu .girl {
+		top: 15%;
+    	right: 30%;
+		width: 50px;
+	}
+	#section-cover .container-illu .pen {
+		width: 60px;
+		right: 50%;
+		top: -5%;		
+	}
+	#section-cover h1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	#section-cover h1 > span:nth-child(2)
+	{
+		-webkit-transition-delay: 0.1s;
+		     -o-transition-delay: 0.1s;
+		        transition-delay: 0.1s
+	}
+
+
+	#section-trip
+	{
+		padding-left: 0px;
+	}
+	#section-trip .container-title
+	{
+		position: initial;
+		text-align:left;
+		background-color: #2884F6;
+		padding: 75px 0px 0px 40px;
+	}
+	#section-trip .container-title h2
+	{
+		color: #FFFFFF;
+		font-size: 36px;
+		line-height: 43px;
+	}
+	#section-trip .wrapper .container-text
+	{
+		width: 100%;
+		padding-top: 0px;
+	}
+	#section-trip .container-text > p
+	{
+		padding-top: 10px;
+		padding: 40px;
+		background-color: #2884F6;
+		color: #FFFFFF;
+		-webkit-transform: translateY(0px);
+		    -ms-transform: translateY(0px);
+		        transform: translateY(0px);
+		opacity: 1;
+	}
+	#section-trip .container-text .container-el
+	{
+		margin-top: 50px;
+	}
+	#section-trip .container-text .container-el .el .timer
+	{
+		width: 25px;
+		height: 1px;
+		left: 20px;
+	}
+	#section-trip .container-img
+	{
+		margin-left: auto;
+		width: 80%;
+		padding: 50px 0px 0px 0px;
+	}
+	#section-trip .container-img:before
+	{
+		content: initial;
+	}
+	#section-trip .container-img .container-slides
+	{
+		height: 335px;
+	}
+	#section-trip .container-img .container-slides .container-card:before
+	{
+		background-color: #2884F6;
+	}
+	#section-trip .container-img .container-slides .container-card .card
+	{
+		padding: 10px 20px 10px 20px;
+		
+	}
+
+
+    #section-team {
+    	margin-top: 150px;
+    }
+	#section-team .wrapper {
+		width: 100%;
+	}
+	#section-team .wrapper .wrapper-text {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;    	
+		padding: 0 30px;
+		margin-bottom: 0;
+	}
+	#section-team .wrapper .wrapper-text h2 {
+		margin-bottom: 25px;
+		font-size: 30px;
+	}
+	#section-team .wrapper .wrapper-text h2:before {
+		right: auto;
+	    top: -25%;
+	    height: 3px;
+	    width: 30px;
+	}
+	#section-team .wrapper .wrapper-text .desc {
+		width: 100%;
+	}
+	#section-team .wrapper .container-el {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    margin-top: 75px;
+	    -webkit-box-align:center;
+	        -ms-flex-align:center;
+	            align-items:center;
+	}
+
+	#section-team .wrapper .container-el .el {
+		-webkit-transform: none;
+		    -ms-transform: none;
+		        transform: none;
+		height: 344px;
+		width: 267px;
+	}
+	#section-team .wrapper .container-el .el:nth-child(odd) {
+		left: -25px;
+	}
+	#section-team .wrapper .container-el .el:nth-child(even) {
+		left: 25px;
+	}
+	#section-team .wrapper .container-el .el:nth-child(1)
+	{
+	    -webkit-transform: translateY(-0px);
+	        -ms-transform: translateY(-0px);
+	            transform: translateY(-0px);
+	}
+	#section-team .wrapper .container-el .el:nth-child(4)
+	{
+	    -webkit-transform: translateY(0px);
+	        -ms-transform: translateY(0px);
+	            transform: translateY(0px);
+	}
+	#section-team .wrapper .container-el .el:nth-child(2) .container-text
+	{
+		right: 10px;
+	}
+	#section-team .wrapper .container-el .el .container-text
+	{
+		top: 10px;
+		left: 15px;
+	}
+	#section-team .wrapper .esperluette { 
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	#section-team .wrapper .container-el-2 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		text-align: center;
+	}
+	#section-team .wrapper .container-el-2 .container-text {
+		margin-bottom: 25px;
+	}
+
+
+	#section-quotes {
+		padding-left: 0;
+		height: auto;
+		margin-top: 80px;
+    	margin-bottom: 80px;
+    	padding-bottom: 40px;
+	}
+	#section-quotes::before {
+		width: 100%;
+	}
+	#section-quotes .container-title
+	{
+		position: relative;
+		padding-left: 0px;
+		-webkit-transform-origin: initial;
+        -ms-transform-origin: initial;
+            transform-origin: initial;
+		-webkit-transform: rotate(0deg) translateX(0%);
+        -ms-transform: rotate(0deg) translateX(0%);
+            transform: rotate(0deg) translateX(0%);
+
+	    padding-top: 50px;
+		margin-left: initial;
+		left: 0px;
+		padding-left: 40px;
+	}
+	#section-quotes.anim .container-title
+	{
+	    -webkit-transform: translateX(0%);
+	        -ms-transform: translateX(0%);
+	            transform: translateX(0%);
+	}
+	#section-quotes .container-title h2
+	{
+		padding-top: 24px;
+		font-size: 32px;
+	}
+	#section-quotes .container-title h2:after
+	{
+		right: initial;
+		left: 0px;
+		top: 0px;
+		width: 40px;
+    	height: 3px;
+	}
+	#section-quotes .container-title p
+	{
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#section-quotes .container-quotes
+	{
+		margin-top: 40px;
+	}
+	#section-quotes .container-quotes .wrapper-quotes {
+		position: initial;
+		padding-left: 40px;
+		padding-right: 40px;
+		-webkit-transform: translate(0%);
+		    -ms-transform: translate(0%);
+		        transform: translate(0%);
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#section-methodology .container-title
+	{
+		position: initial;
+		padding: 0px 40px 0px 40px;
+		margin-bottom: 30px;
+	}
+	#section-methodology .container-title h2
+	{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	#section-methodology .container-title h2:before
+	{
+		right: initial;
+		left: 0px;
+		top: initial;
+		width: 30px;
+		bottom: calc(100% + 22px);
+	}
+	#section-methodology .wrapper
+	{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: row wrap;
+		        flex-flow: row wrap;
+	}
+	#section-methodology .wrapper .container-img
+	{
+		width: 100%;
+		height: 325px;
+	}
+	#section-methodology .wrapper .container-img .bg
+	{
+		width: 90%;
+	}
+	#section-methodology .wrapper .container-text
+	{
+		width: 100%;
+		padding: 45px 45px 0px 45px;
+	}
+	#section-methodology .wrapper .container-text .text
+	{
+		width: 100%;
+	}
+	#section-methodology .wrapper .wrapper-el
+	{
+		margin-top: 40px;
+	}
+	#section-methodology .wrapper .wrapper-el .container-el
+	{
+		width: 100%;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+
+	}
+	#section-methodology .wrapper .wrapper-el .container-el .el
+	{
+		width: calc(100% / 10);
+		height: auto;
+		margin-right: 45px;
+	}
+	#section-methodology .wrapper .wrapper-el .container-el .el img
+	{
+		height: auto;
+		width: 100%;
+	}
+
+	#section-office
+	{
+		width: 100%;
+		padding-top: 75px;
+		padding-bottom: 0px;
+	}
+	#section-office .wrapper-pres
+	{
+		width: 100%;
+		padding: 0px 40px 0px 40px;
+	}
+	#section-office .wrapper-pres .container-title h2
+	{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	#section-office .wrapper-pres .container-title h2:before
+	{
+		right: initial;
+		left: 0px;
+		top: initial;
+		width: 30px;
+		bottom: calc(100% + 22px);
+	}
+	#section-office .wrapper-pres .container-title,
+	#section-office .wrapper-pres .container-pres
+	{
+		width: 100%;
+	}
+	#section-office .wrapper-pres .container-pres .btn
+	{
+		margin-top: 30px;
+	}
+	#section-office .wrapper-pres .container-pres .desc
+	{
+		width: 100%;
+		margin-top: 30px;
+		font-size: 16px;
+	}
+	#section-office .wrapper-img
+	{
+		height: initial;
+	}
+	#section-office .wrapper-img .container-el
+	{
+		width: 100%;
+		height: 300px;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	#section-office .wrapper-img .container-action
+	{
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		width: 100%;
+		height: 145px;
+	}
+	#section-office .wrapper-text
+	{
+		padding-right: 0px;
+		width: 100%;
+		margin-top: 0px;
+		padding: 40px;
+	}
+	#section-office .wrapper-text p
+	{
+		-webkit-column-count: 1;
+		        column-count: 1;
+		line-height: 32px;
+	}
+	
+}

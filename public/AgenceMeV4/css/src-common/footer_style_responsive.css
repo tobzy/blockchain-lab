@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px) {
+	
+	footer
+	{
+		text-align: center;
+		margin-bottom: 50px;
+		padding: 35px 0 0px 0;
+	}
+	footer .container-logo
+	{
+		position: initial;
+		-webkit-transform: translate(0%, 0%);
+		    -ms-transform: translate(0%, 0%);
+		        transform: translate(0%, 0%);
+	}
+	footer .content
+	{
+		justify-content: center;
+		flex-flow: row wrap;
+		margin-top: 30px;
+	}
+	footer .content .container-xeu
+	{
+		display: block;
+		width: 100%;
+	}
+	footer .content .container-xeu .crp
+	{
+		margin-bottom: 30px;
+	}
+	footer .content .container-xeu .sep
+	{
+		display: none;
+	}
+	footer .content .container-wrp
+	{
+		margin-top: 30px;
+	}
+
+}
