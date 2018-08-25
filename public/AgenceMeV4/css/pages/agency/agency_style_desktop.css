@@ -692,7 +692,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 105px;
+    margin-bottom: 60px;
 }
 #section-team .wrapper .wrapper-text h2
 {
@@ -757,12 +757,13 @@
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
+    justify-content: space-between;
 }
 #section-team .wrapper .container-el .el
 {
-    width: 30%;
-    margin-right: 20%;
-    height: 300px;
+    width: 20%;
+    /*margin-right: 20%;*/
+    /*height: 300px;*/
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -838,37 +839,55 @@
 }
 #section-team .wrapper .container-el .el:nth-child(1)
 {
-    -webkit-transform: translateY(-65px);
-        -ms-transform: translateY(-65px);
-            transform: translateY(-65px);
+    /*-webkit-transform: translateY(-65px);*/
+        /*-ms-transform: translateY(-65px);*/
+            /*transform: translateY(-65px);*/
 }
 #section-team .wrapper .container-el .el:nth-child(4)
 {
-    -webkit-transform: translateY(65px);
-        -ms-transform: translateY(65px);
-            transform: translateY(65px);
+    /*-webkit-transform: translateY(65px);*/
+        /*-ms-transform: translateY(65px);*/
+            /*transform: translateY(65px);*/
 }
 
 #section-team .wrapper .container-el .el .container-text
 {
-    position: absolute;
+    /*position: absolute;*/
 }
 #section-team .wrapper .container-el .el .container-text
 {
-    left: 35px;
-    top: 35px;
+    /*left: 35px;*/
+    /*top: 35px;*/
+    margin-top: 20px;
 }
 #section-team .wrapper .container-el .el .container-text .name
 {
-    color: #FFFFFF; 
+    color: #000;
     font-family: National-Bold;  
-    font-size: 18px;
+    font-size: 15px;
 }
 #section-team .wrapper .container-el .el .container-text .job
 {
-    color: #FFFFFF; 
-    font-family: National-Regular;  
-    font-size: 16px;
+    color: #317ba0;
+    font-family: National-Regular;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#section-team .wrapper .container-el .el .container-text p
+{
+    color: #444;
+    font-family: National-Book;
+    font-size: 14px;
+    /* font-style: italic; */
+    margin-top: 20px;
+    /*text-align: justify;*/
+}
+#section-team .wrapper .container-el .el .container-text .readmore{
+    color: #5149b5;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
 }
 #section-team .wrapper .esperluette {
     margin: 140px auto 75px auto;

@@ -684,23 +684,16 @@ section.reach .wrapLine span,
 	margin-top: 20px;
 }
 .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
 	transition: .5s ease;
-	background-color: #3f7bb1;
-	padding-bottom: 20px;
-	z-index: 99;
+	/* background-color: #3f7bb1; */
+	/* padding-bottom: 20px; */
+	/* z-index: 99; */
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	border-radius: 50%;
 }
 
-.el:hover .overlay {
-	opacity: 1;
-}
 .el .text {
 	color: #fff;
 	padding: 20px 20px 10px 20px;

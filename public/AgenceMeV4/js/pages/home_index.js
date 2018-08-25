@@ -109,7 +109,7 @@ function progressCoverCarousselActive(){
 var countElNum = 0;
 var delayCoverCaroussel = 6000;
 var intervalCoverCaroussel = setInterval(function() {
-      initCoverCaroussel();
+      // initCoverCaroussel();
     }, delayCoverCaroussel);
 
 function initCoverCaroussel(){
@@ -281,56 +281,56 @@ $(document).ready(function() {
 
 
 	/* LOADER */
-	
-	animation.addEventListener('loopComplete',function(){
-	  animation.goToAndPlay(56, true)
-	})
+	//
+	// animation.addEventListener('loopComplete',function(){
+	//   animation.goToAndPlay(56, true)
+	// })
 
 
-
-	animation.addEventListener('enterFrame',function(e){
-		if(e.currentTime > 94 && e.currentTime < 114 && !$('#container-general').hasClass('ready')) {
-
-		  	$('#loader .container-bg .bg').removeClass('show');
-		    $('#loader .container-bg .bg.'+cmLyEl[1]).addClass('show');
-
-
-		    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
-			    return (className.match (/\bstyle-\S+/g) || []).join(' ');
-			});
-
-			var dataClass = $('#loader .container-bg .bg.show').data('header');
-
-			$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
-
-		  }else if (e.currentTime > 148 && e.currentTime < 168 && !$('#container-general').hasClass('ready')) {
-		  	$('#loader .container-bg .bg').removeClass('show');
-		    $('#loader .container-bg .bg.'+cmLyEl[2]).addClass('show');
-
-		    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
-			    return (className.match (/\bstyle-\S+/g) || []).join(' ');
-			});
-
-			var dataClass = $('#loader .container-bg .bg.show').data('header');
-
-			$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
-
-		  }else if (e.currentTime > 210 && e.currentTime < 230 && !$('#container-general').hasClass('ready')) {
-		  	$('#loader .container-bg .bg').removeClass('show');
-		    $('#loader .container-bg .bg.'+cmLyEl[3]).addClass('show');
-
-		    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
-			    return (className.match (/\bstyle-\S+/g) || []).join(' ');
-			});
-
-			var dataClass = $('#loader .container-bg .bg.show').data('header');
-
-			$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
-
-		  }
-
-
-	})
+    //
+	// animation.addEventListener('enterFrame',function(e){
+	// 	if(e.currentTime > 94 && e.currentTime < 114 && !$('#container-general').hasClass('ready')) {
+    //
+	// 	  	$('#loader .container-bg .bg').removeClass('show');
+	// 	    $('#loader .container-bg .bg.'+cmLyEl[1]).addClass('show');
+    //
+    //
+	// 	    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
+	// 		    return (className.match (/\bstyle-\S+/g) || []).join(' ');
+	// 		});
+    //
+	// 		var dataClass = $('#loader .container-bg .bg.show').data('header');
+    //
+	// 		$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
+    //
+	// 	  }else if (e.currentTime > 148 && e.currentTime < 168 && !$('#container-general').hasClass('ready')) {
+	// 	  	$('#loader .container-bg .bg').removeClass('show');
+	// 	    $('#loader .container-bg .bg.'+cmLyEl[2]).addClass('show');
+    //
+	// 	    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
+	// 		    return (className.match (/\bstyle-\S+/g) || []).join(' ');
+	// 		});
+    //
+	// 		var dataClass = $('#loader .container-bg .bg.show').data('header');
+    //
+	// 		$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
+    //
+	// 	  }else if (e.currentTime > 210 && e.currentTime < 230 && !$('#container-general').hasClass('ready')) {
+	// 	  	$('#loader .container-bg .bg').removeClass('show');
+	// 	    $('#loader .container-bg .bg.'+cmLyEl[3]).addClass('show');
+    //
+	// 	    $('#header-desktop, #loader-anim, #nav-btn').removeClass(function (index, className) {
+	// 		    return (className.match (/\bstyle-\S+/g) || []).join(' ');
+	// 		});
+    //
+	// 		var dataClass = $('#loader .container-bg .bg.show').data('header');
+    //
+	// 		$('#header-desktop, #loader-anim, #nav-btn').addClass(dataClass);
+    //
+	// 	  }
+    //
+    //
+	// })
 
 	/* END LOADER */
 
