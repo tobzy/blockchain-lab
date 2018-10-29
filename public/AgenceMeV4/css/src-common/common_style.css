@@ -71,7 +71,7 @@ body.block
 .anim-btnHover-1,
 .anim-btnHover-2
 {
-	white-space:pre;
+	/*white-space:pre;*/
 }
 .anim-btnHover-1 span,
 .anim-btnHover-2 span
@@ -674,12 +674,32 @@ section.reach .wrapLine span,
 .button-apply {
 	display: block;
 	width: 130px;
-	height: 75px;
+	/*height: 75px;*/
 	background: #4f87e8;
 	padding: 10px;
 	text-align: center;
 	border-radius: 5px;
-	color: #1C1B1B;
+	color: #fff;
 	font-weight: bold;
 	margin-top: 20px;
+}
+.overlay {
+	transition: .5s ease;
+	/* background-color: #3f7bb1; */
+	/* padding-bottom: 20px; */
+	/* z-index: 99; */
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.el .text {
+	color: #fff;
+	padding: 20px 20px 10px 20px;
+	font-family: National-Regular, sans-serif;
+	font-size: 16px;
+	height: 100%;
+	text-align: justify;
+	overflow: auto;
 }

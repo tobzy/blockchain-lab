@@ -5,7 +5,7 @@
 #loader {
     position: absolute;
     z-index: 11;
-    height: 100vh;
+    height: 300%;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -13,6 +13,10 @@
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+}
+#loader section svg{
+    width: 130px;
+    padding-left: 20px;
 }
 #loader.hide {
     opacity: 0;

@@ -791,7 +791,7 @@
 #nav .content:before
 {
 	content: '';
-	width: 120%;
+	/*width: 120%;*/
 	height: 100%;
 	position: absolute;
 	top: 0px;
